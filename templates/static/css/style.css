@@ -1,10 +1,8 @@
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
 .row {
-  background: #f1f0f0da;
+  background: #ffffff00;
   padding: 10px;
 }
-
-
 
 .wrapper {
   position: relative;

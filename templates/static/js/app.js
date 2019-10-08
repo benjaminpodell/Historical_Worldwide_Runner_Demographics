@@ -16,8 +16,7 @@ function buildCharts(country) {
     ];
 
     var pieLayout = {
-      title: "Gender Proportion By Country",
-      margin: { t: -0.5, l: 0 },
+      margin: { t: 0, l: 0 },
       color: "Yellow"
     };
 
@@ -59,7 +58,7 @@ function buildCharts1(country) {
     var data = [trace];
     
     var layout = {
-      title: "Distribution By Age Group",
+      title: "Agegroup",
       margin: {
         l: 50,
         r: 50,
@@ -93,7 +92,7 @@ function buildCharts2(country) {
     var data = [trace];
     
     var layout = {
-      title: "Count of People By Running Event",
+      title: "Events",
       margin: {
         l: 50,
         r: 50,
@@ -125,7 +124,7 @@ function buildCharts3(country) {
     
 
     var layout = {
-      title: "Count of Men by Age Group",
+      title: "Men",
       margin: {
         l: 50,
         r: 50,
@@ -169,7 +168,7 @@ function buildCharts4(country2) {
     
 
     var layout = {
-      title: "Count of Men and Women by Age Group",
+      title: "Men and Women",
       margin: {
         l: 50,
         r: 50,
